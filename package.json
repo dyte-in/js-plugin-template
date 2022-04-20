@@ -1,0 +1,17 @@
+{
+  "name": "plugin-template-js",
+  "version": "1.0.0",
+  "description": "Javascript plugin template for Plugin SDK",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "Dyte",
+  "license": "MIT",
+  "dependencies": {
+    "@dytesdk/plugin-sdk": "^1.4.4",
+    "vite": "^2.9.1"
+  }
+}

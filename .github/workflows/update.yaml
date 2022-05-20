@@ -25,7 +25,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
       - name: Update plugin-sdk version
         run: |
-          npm update @dytesdk/plugin-sdk
-          git add .
-          git commit -m "chore: update plugin-sdk version"
+          npm install @dytesdk/plugin-sdk@latest
+          git add package.json package-lock.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update plugin sdk version"
           git push

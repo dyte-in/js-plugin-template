@@ -11,7 +11,7 @@
   "author": "Dyte",
   "license": "MIT",
   "dependencies": {
-    "@dytesdk/plugin-sdk": "^1.4.4",
+    "@dytesdk/plugin-sdk": "^1.8.0",
     "vite": "^2.9.1"
   }
 }
